@@ -5,7 +5,7 @@ The problem with this is that the untether binary /panguaxe is not protected and
 Once called it fires up the kernelexploit which (in my tests) has a 100% chance of panicing the device if the kernel
 is patched already.
 Every Appsotre app runs as mobile and can access the binary with the use of private headers, which means every
-Appstore app is able to kernelpanic your device, by simple running the untether binary.
+Appstore app is able to kernelpanic your device, by simply running the untether binary.
 Isn't this an epic anti-jailbreak protection huh? XDDDD
 Just kidding
 Hopefully this will be patched soon, to at least check if the user who executes is root or mobile.
