@@ -1,0 +1,18 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "scale" : "1x",
+      "filename" : "Penguin.jpeg"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x",
+      "filename" : "Penguin-1.jpeg"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		878F3268195B22A70049713B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 878F3267195B22A70049713B /* Images.xcassets */; };
 		DA4B7B6E195A9F2A003275B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B7B6D195A9F2A003275B4 /* main.m */; };
 		DA4B7B71195A9F2A003275B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B7B70195A9F2A003275B4 /* AppDelegate.m */; };
 		DA4B7B74195A9F2A003275B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B7B73195A9F2A003275B4 /* ViewController.m */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		878F3267195B22A70049713B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DA4B7B68195A9F2A003275B4 /* deadPengu1n.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = deadPengu1n.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA4B7B6C195A9F2A003275B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA4B7B6D195A9F2A003275B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 		DA4B7B6A195A9F2A003275B4 /* deadP1nguin */ = {
 			isa = PBXGroup;
 			children = (
+				878F3267195B22A70049713B /* Images.xcassets */,
 				DA4B7B6F195A9F2A003275B4 /* AppDelegate.h */,
 				DA4B7B70195A9F2A003275B4 /* AppDelegate.m */,
 				DA4B7B72195A9F2A003275B4 /* ViewController.h */,
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA4B7B77195A9F2A003275B4 /* Main.storyboard in Resources */,
+				878F3268195B22A70049713B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +267,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -305,7 +310,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -327,8 +333,8 @@
 		DA4B7B89195A9F2A003275B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				INFOPLIST_FILE = deadP1nguin/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -339,8 +345,8 @@
 		DA4B7B8A195A9F2A003275B4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				INFOPLIST_FILE = deadP1nguin/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -361,6 +367,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = deadP1nguinTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = deadPengu1nTests;
@@ -377,6 +384,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = deadP1nguinTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = deadPengu1nTests;
