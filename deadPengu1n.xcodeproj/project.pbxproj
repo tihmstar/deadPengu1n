@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		878F3268195B22A70049713B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 878F3267195B22A70049713B /* Images.xcassets */; };
+		08BAD055195C22C500F0A9C8 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 081097C7195C212300836D7E /* images.xcassets */; };
 		DA4B7B6E195A9F2A003275B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B7B6D195A9F2A003275B4 /* main.m */; };
 		DA4B7B71195A9F2A003275B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B7B70195A9F2A003275B4 /* AppDelegate.m */; };
 		DA4B7B74195A9F2A003275B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4B7B73195A9F2A003275B4 /* ViewController.m */; };
@@ -26,7 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		878F3267195B22A70049713B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		081097C7195C212300836D7E /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
 		DA4B7B68195A9F2A003275B4 /* deadPengu1n.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = deadPengu1n.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA4B7B6C195A9F2A003275B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA4B7B6D195A9F2A003275B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -79,13 +79,13 @@
 		DA4B7B6A195A9F2A003275B4 /* deadP1nguin */ = {
 			isa = PBXGroup;
 			children = (
-				878F3267195B22A70049713B /* Images.xcassets */,
 				DA4B7B6F195A9F2A003275B4 /* AppDelegate.h */,
 				DA4B7B70195A9F2A003275B4 /* AppDelegate.m */,
 				DA4B7B72195A9F2A003275B4 /* ViewController.h */,
 				DA4B7B73195A9F2A003275B4 /* ViewController.m */,
 				DA4B7B75195A9F2A003275B4 /* Main.storyboard */,
 				DA4B7B6B195A9F2A003275B4 /* Supporting Files */,
+				081097C7195C212300836D7E /* images.xcassets */,
 			);
 			path = deadP1nguin;
 			sourceTree = "<group>";
@@ -106,7 +106,7 @@
 				DA4B7B82195A9F2A003275B4 /* Supporting Files */,
 			);
 			path = deadP1nguinTests;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		DA4B7B82195A9F2A003275B4 /* Supporting Files */ = {
 			isa = PBXGroup;
@@ -195,8 +195,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08BAD055195C22C500F0A9C8 /* images.xcassets in Resources */,
 				DA4B7B77195A9F2A003275B4 /* Main.storyboard in Resources */,
-				878F3268195B22A70049713B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +285,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				METAL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -322,7 +322,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				METAL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";

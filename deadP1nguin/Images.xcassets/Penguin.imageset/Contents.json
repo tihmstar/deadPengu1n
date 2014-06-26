@@ -3,12 +3,12 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "Penguin.jpeg"
+      "filename" : "penguin-1.jpg"
     },
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "Penguin-1.jpeg"
+      "filename" : "penguin.jpg"
     }
   ],
   "info" : {
